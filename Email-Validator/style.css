@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.navbar {
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navinfo a {
+    text-decoration: none;
+    color: beige;
+    font-size: 14px;
+}
+
+.navinfo a:hover {
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+}
+
+main {
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.mainheading {
+    font-size: 24px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.username {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+#resultCont {
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.last {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    bottom: 0;
+    font-size: 14px;
+}
